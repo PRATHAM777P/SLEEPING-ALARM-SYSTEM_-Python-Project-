@@ -17,7 +17,6 @@ The **Sleeping Alarm System** is a Python-based application that leverages **com
 
 ### 🧑‍💻 Real-Time Sleep Detection
 
-<img width="864" height="445" alt="Screenshot 2025-07-23 224638" src="https://github.com/user-attachments/assets/77adc151-d0e8-4004-9cce-28f6a0a1f37b" />
 
 ---
 
