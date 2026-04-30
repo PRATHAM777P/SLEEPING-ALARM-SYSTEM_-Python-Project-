@@ -26,7 +26,6 @@
 <!-- Badges Row 2 -->
 <p>
   <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-informational?style=flat-square&logo=windows&logoColor=white"/>
-  <img src="https://img.shields.io/badge/License-MIT-2ea44f?style=flat-square"/>
   <img src="https://img.shields.io/badge/Status-Active%20Development-brightgreen?style=flat-square"/>
   <img src="https://img.shields.io/badge/PRs-Welcome-ff69b4?style=flat-square"/>
   <img src="https://img.shields.io/badge/Offline-100%25%20Private-blueviolet?style=flat-square&logo=shield&logoColor=white"/>
