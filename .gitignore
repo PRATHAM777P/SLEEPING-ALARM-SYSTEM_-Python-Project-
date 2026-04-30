@@ -1,0 +1,83 @@
+# ──────────────────────────────────────────────────────────────
+#  .gitignore — Sleeping Alarm System
+#  Keeps personal data, system info, and build artifacts out
+#  of the repository so it is safe to share publicly.
+# ──────────────────────────────────────────────────────────────
+
+# ── Python compiled / cache ──────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ── Virtual environments ─────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+*.env
+
+# ── Distribution / packaging ─────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+
+# ── Test artefacts ───────────────────────────────────────────
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+*.lcov
+
+# ── IDE / editor files ───────────────────────────────────────
+.vscode/
+.idea/
+*.iml
+*.suo
+*.user
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Secrets & credentials (safety net) ──────────────────────
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.json
+credentials.json
+token.json
+.secrets/
+
+# ── Project-specific: generated data (do NOT commit) ────────
+snapshots/          # auto-generated sleep screenshots — can contain face images
+logs/               # session logs — no personal info but kept local by default
+*.jsonl             # log files
+
+# ── Large test media (add your own; do not commit binary blobs) ──
+test.mp4            # 11 MB sample — too large for Git; use Git LFS or local only
+*.mp4
+*.avi
+*.mkv
+*.mov
+
+# ── Jupyter notebooks checkpoints ───────────────────────────
+.ipynb_checkpoints/
+
+# ── mypy / type checkers ─────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ── OS-specific ──────────────────────────────────────────────
+*.swp
+*.swo
+*~
