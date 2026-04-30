@@ -4,9 +4,8 @@
 ║          Real-Time Eye & Face Monitoring with Alerts          ║
 ╚══════════════════════════════════════════════════════════════╝
 
-Author  : Your Name
+Author  : Prathamesh Penshanwar
 Version : 2.0.0
-License : MIT
 """
 
 import cv2
