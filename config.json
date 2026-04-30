@@ -1,0 +1,26 @@
+{
+  "_comment": "Sleeping Alarm System — User Configuration. Edit freely, no secrets here.",
+
+  "camera_index": 0,
+
+  "sleep_frame_threshold": 20,
+
+  "display_fps": true,
+  "display_status_bar": true,
+
+  "save_snapshots": true,
+  "snapshot_dir": "snapshots",
+
+  "log_events": true,
+  "log_dir": "logs",
+
+  "alarm_beep_frequency": 1000,
+  "alarm_beep_duration_ms": 1000,
+
+  "scale_factor": 1.1,
+  "min_neighbors_face": 5,
+  "min_neighbors_eye": 3,
+
+  "rectangle_color_face": [0, 0, 255],
+  "rectangle_color_eye":  [0, 255, 0]
+}
